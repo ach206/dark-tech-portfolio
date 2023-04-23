@@ -4047,6 +4047,13 @@ object {
   opacity: 0.4;
   z-index: 2;
 }
+.founder-bg-mask {
+  background: url('/../images/Camille-23.png');
+  background-repeat: no-repeat;
+  background-position: 0% 20%;
+  background-size: contain;
+  opacity: 0.6;
+}
 
 .video-bg-texture {
   position: absolute;
