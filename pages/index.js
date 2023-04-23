@@ -13,11 +13,7 @@ const Index = () => {
         <div className="centrize full-width">
           <div className="vertical-center">
             <div className="started-content">
-              <h1 className="h-title">
-                Hello, {`I’m`} <strong>Camille Hall</strong>, Tech Founder
-                and <br />
-                Software Engineer.
-              </h1>
+              <h1 class="h-title">Whatever the mind can conceive and <strong>believe</strong>, the mind can achieve — Napolean Hill</h1>
               <TypingAnimation extraClassName={"h-subtitle"} />
               <span className="typed-subtitle" />
             </div>

@@ -9,13 +9,13 @@ const TypingAnimation = ({ typingData, extraClassName }) => {
       strings: typingData
         ? typingData
         : [
-            "I code cool <strong>websites</strong>",
-            "I develop <strong>mobile apps</strong>",
-            "I love <strong>wordpress</strong>",
+          "We build software using <strong>AI</strong>.",
+          "We turn ideas into <strong>reality</strong>.",
+          "<strong>Program</strong> your life.",
           ], // Strings to display
-      typeSpeed: 100,
+      typeSpeed: 77,
       backSpeed: 100,
-      backDelay: 100,
+      backDelay: 200,
       smartBackspace: true,
       loop: true,
       showCursor: false,

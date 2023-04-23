@@ -8,9 +8,9 @@ const ItemIsotope = dynamic(() => import("../src/components/ItemIsotope"), {
 
 const WorksCreative = () => {
   const typingData = [
-    "<p>I code cool <strong>websites</strong></p>",
-    "<p>I develop <strong>mobile apps</strong></p>",
-    "<p>I love <strong>wordpress</strong></p>",
+    "We build software using <strong>AI</strong>.",
+    "We turn ideas into <strong>reality</strong>.",
+    "<strong>Program</strong> your life.",
   ];
 
   return (

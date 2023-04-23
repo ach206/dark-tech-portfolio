@@ -1,21 +1,23 @@
 const Footer = () => {
   return (
     <footer className="footer">
-      {/* <div className="copy">
-        <p>E: hello@creativeambition.net</p>
-        <p>T: +1 (234) 567 80 98</p>
-      </div> */}
+      <div className="copy">
+        <p>BUILD</p>
+        <p>EDUCATE</p>
+        <p>MOTIVATE</p>
+        <p>REPEAT</p>
+      </div>
       <div className="soc-box">
-        <div className="follow-label">Follow Me</div>
+        <div className="follow-label">Follow</div>
         <div className="soc">
-          <a target="_blank" rel="noreferrer" href="https://www.pinterest.com/">
-            <span className="icon fab fa-pinterest" />
-          </a>
-          <a target="_blank" rel="noreferrer" href="https://www.instagram.com/">
+          <a target="_blank" rel="noreferrer" href="https://www.instagram.com/heycamille.js">
             <span className="icon fab fa-instagram" />
           </a>
-          <a target="_blank" rel="noreferrer" href="https://dribbble.com/">
-            <span className="icon fab fa-dribbble" />
+          <a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCYLHUs0waQDyZgSPi0tJ9BA">
+            <span className="icon fab fa-youtube" />
+          </a>
+          <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/ach206">
+            <span className="icon fab fa-linkedin" />
           </a>
         </div>
       </div>
