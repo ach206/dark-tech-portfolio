@@ -48,7 +48,7 @@ const VideoPopup = () => {
       const a = document.querySelectorAll("a");
       a.forEach((a) => {
         if (
-          a.href.includes("www.youtube.com") ||
+          // a.href.includes("www.youtube.com") || @TO-DO undo when ready for youtube intergration
           a.href.includes("vimeo.com") ||
           a.href.includes("soundcloud.com")
         ) {
