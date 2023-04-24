@@ -22,7 +22,7 @@ const About = () => {
                                 <div className="post">
                                     <div className="image">
 
-                                        <Image src="/../public/images/camillionaire_philosophers-stone-white-bkg.png" width={'100%'} height={'100%'} className="" alt="Creative Ambition Logo" />
+                                        <Image src="/images/camillionaire_philosophers-stone-white-bkg.png" width={'100%'} height={'100%'} className="" alt="Creative Ambition Logo" />
                                     </div>
                                     <div className="desc">
                                         <div className="single-post-text">
