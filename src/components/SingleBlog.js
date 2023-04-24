@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const SingleBlog = () => {
   return (
     <div className="section blog" id="next_section">
@@ -36,17 +38,20 @@ const SingleBlog = () => {
                 <div className="gallery-item">
                   <p>
                     <a href="images/work1.jpg">
-                      <img src="images/work1.jpg" alt="" />
+                                        <Image src="/images/client1.png" alt="" width={100} height={100} />
+
                     </a>
                   </p>
                   <p>
                     <a href="images/work2.jpg">
-                      <img src="images/work2.jpg" alt="" />
+                                        <Image src="/images/client1.png" alt="" width={100} height={100} />
+
                     </a>
                   </p>
                   <p>
                     <a href="images/work3.jpg">
-                      <img src="images/work3.jpg" alt="" />
+                                        <Image src="/images/client1.png" alt="" width={100} height={100} />
+
                     </a>
                   </p>
                 </div>

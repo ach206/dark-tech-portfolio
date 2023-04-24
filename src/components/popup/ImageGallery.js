@@ -1,4 +1,5 @@
 import { Fragment, useEffect, useState } from "react";
+import Image from "next/image";
 
 const ImgView = ({ close, imgs }) => {
   const images =
@@ -27,11 +28,7 @@ const ImgView = ({ close, imgs }) => {
             <div className="mfp-content imgGallery_popup">
               <div className="mfp-iframe-scaler">
                 <div className="img-container">
-                  <img
-                    style={{ width: `100%` }}
-                    className="mfp-img"
-                    src={images[photoIndex]}
-                  />
+                  <Image src="/images/client1.png" alt="" width={100} height={100} />
                   {/* <div className="mfp-bottom-bar">
                     <div className="mfp-title" />
                     <div className="mfp-counter">

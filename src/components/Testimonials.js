@@ -6,6 +6,8 @@ import SwiperCore, {
   Pagination,
 } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from "next/image";
+
 SwiperCore.use([Pagination, Navigation, EffectFade, Autoplay, Grid]);
 const Testimonials = () => {
   const props = {
@@ -44,8 +46,7 @@ const Testimonials = () => {
               <SwiperSlide className="swiper-slide">
                 <div className="reviews-item content-box">
                   <div className="image">
-                    <img src="images/rev1.jpg" alt="" />
-                  </div>
+                    <Image src="/../public/images/blog/blog_4.jpg" width={'100%'} height={'100%'} className="wp-post-image" alt="Two Before Arrow Not Relied" />                  </div>
                   <div className="info">
                     <div className="name">Helen Floyd</div>
                     <div className="company">Art Director</div>
@@ -59,8 +60,7 @@ const Testimonials = () => {
               <SwiperSlide className="swiper-slide">
                 <div className="reviews-item content-box">
                   <div className="image">
-                    <img src="images/rev1.jpg" alt="" />
-                  </div>
+                    <Image src="/../public/images/blog/blog_4.jpg" width={'100%'} height={'100%'} className="wp-post-image" alt="Two Before Arrow Not Relied" />                  </div>
                   <div className="info">
                     <div className="name">Helen Floyd</div>
                     <div className="company">Art Director</div>

@@ -2,6 +2,8 @@ import Isotope from "isotope-layout";
 import Link from "next/link";
 import { Fragment, useEffect, useRef, useState } from "react";
 import { parallax } from "../utils";
+import Image from "next/image";
+
 const ItemIsotope = () => {
   useEffect(() => {
     parallax();
@@ -153,8 +155,7 @@ const ItemIsotope = () => {
           {/* add class "animate-to-page" if need animated transition to page and delete target="_blank" rel="noreferrer" */}
           <div className="image">
             <a href="#gallery-1" className="has-popup-gallery hover-animated">
-              <img src="images/work1.jpg" className="wp-post-image" alt="" />
-              <span className="info circle">
+              <Image src="/../public/images/blog/blog_4.jpg" width={'100%'} height={'100%'} className="wp-post-image" alt="Two Before Arrow Not Relied" />              <span className="info circle">
                 <span className="centrize full-width">
                   <span className="vertical-center">
                     <span className="icon fas fa-images" />
@@ -182,8 +183,7 @@ const ItemIsotope = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img src="images/work3.jpg" className="wp-post-image" alt="" />
-              <span className="info circle">
+              <Image src="/../public/images/blog/blog_4.jpg" width={'100%'} height={'100%'} className="wp-post-image" alt="Two Before Arrow Not Relied" />              <span className="info circle">
                 <span className="centrize full-width">
                   <span className="vertical-center">
                     <span className="icon fas fa-link" />
@@ -203,8 +203,7 @@ const ItemIsotope = () => {
               href="https://www.youtube.com/embed/S4L8T2kFFck"
               className="has-popup-video hover-animated"
             >
-              <img src="images/work2.jpg" className="wp-post-image" alt="" />
-              <span className="info circle">
+              <Image src="/../public/images/blog/blog_4.jpg" width={'100%'} height={'100%'} className="wp-post-image" alt="Two Before Arrow Not Relied" />              <span className="info circle">
                 <span className="centrize full-width">
                   <span className="vertical-center">
                     <span className="icon fas fa-video" />
@@ -224,8 +223,7 @@ const ItemIsotope = () => {
               href="images/work4.jpg"
               className="has-popup-image hover-animated"
             >
-              <img src="images/work4.jpg" className="wp-post-image" alt="" />
-              <span className="info circle">
+              <Image src="/../public/images/blog/blog_4.jpg" width={'100%'} height={'100%'} className="wp-post-image" alt="Two Before Arrow Not Relied" />              <span className="info circle">
                 <span className="centrize full-width">
                   <span className="vertical-center">
                     <span className="icon fas fa-image" />
@@ -245,8 +243,7 @@ const ItemIsotope = () => {
               href="images/work7.jpg"
               className="has-popup-image hover-animated"
             >
-              <img src="images/work7.jpg" className="wp-post-image" alt="" />
-              <span className="info circle">
+              <Image src="/../public/images/blog/blog_4.jpg" width={'100%'} height={'100%'} className="wp-post-image" alt="Two Before Arrow Not Relied" />              <span className="info circle">
                 <span className="centrize full-width">
                   <span className="vertical-center">
                     <span className="icon fas fa-image" />
@@ -266,8 +263,7 @@ const ItemIsotope = () => {
               href="https://w.soundcloud.com/player/?visual=true&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F221650664&show_artwork=true"
               className="has-popup-music hover-animated"
             >
-              <img src="images/work6.jpg" className="wp-post-image" alt="" />
-              <span className="info circle">
+              <Image src="/../public/images/blog/blog_4.jpg" width={'100%'} height={'100%'} className="wp-post-image" alt="Two Before Arrow Not Relied" />              <span className="info circle">
                 <span className="centrize full-width">
                   <span className="vertical-center">
                     <span className="icon fas fa-music" />
@@ -284,8 +280,7 @@ const ItemIsotope = () => {
         <div className="box-item f-gallery">
           <div className="image">
             <a href="#gallery-2" className="has-popup-gallery hover-animated">
-              <img src="images/work5.jpg" className="wp-post-image" alt="" />
-              <span className="info circle">
+              <Image src="/../public/images/blog/blog_4.jpg" width={'100%'} height={'100%'} className="wp-post-image" alt="Two Before Arrow Not Relied" />              <span className="info circle">
                 <span className="centrize full-width">
                   <span className="vertical-center">
                     <span className="icon fas fa-images" />
@@ -308,8 +303,7 @@ const ItemIsotope = () => {
         <div className="box-item f-content">
           <div className="image">
             <a href="#popup-1" className="has-popup-media hover-animated">
-              <img src="images/work8.jpg" className="wp-post-image" alt="" />
-              <span className="info circle">
+              <Image src="/../public/images/blog/blog_4.jpg" width={'100%'} height={'100%'} className="wp-post-image" alt="Two Before Arrow Not Relied" />              <span className="info circle">
                 <span className="centrize full-width">
                   <span className="vertical-center">
                     <span className="icon fas fa-plus" />
