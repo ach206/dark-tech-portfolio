@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="soc-box">
         <div className="follow-label">Follow</div>
         <div className="soc">
-          <a target="_blank" rel="noreferrer" href="https://www.instagram.com/heycamille.js">
+          <a target="_blank" rel="noreferrer" href="https://www.instagram.com/camillehall.js">
             <span className="icon fab fa-instagram" />
           </a>
           <a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCYLHUs0waQDyZgSPi0tJ9BA">
