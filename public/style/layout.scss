@@ -1,5 +1,3 @@
-@import "settings";
-
 /**
 *	Cvio - Resume/CV Template (HTML)
 *	Version: 1.1
@@ -3327,7 +3325,7 @@ iframe, object {
 	float: right;
 	width: 18px;
 	height: 18px;
-	background: url(assets/images/android-search.png) no-repeat center center;
+	background: url('/images/search.svg') no-repeat center center;
 	background-size: 18px 18px;
 	font-size: 0;
 	border: none;
@@ -3470,7 +3468,7 @@ iframe, object {
 	display: block;
 	width: 20px;
 	height: 20px;
-	background: url(assets/images/pag.png) no-repeat center center;
+	background: url('/images/search.svg') no-repeat center center;
 	@include transform(scaleX(-1));
 }
 
@@ -3694,6 +3692,13 @@ iframe, object {
 	background: $default_bg;
 	opacity: 0.4;
 	z-index: 2;
+}
+.founder-bg-mask {
+	background: url('../images/Camille-23.png');
+	background-size: contain;
+	background-position: 0% 50%;
+	background-repeat: no-repeat;
+	opacity: 0.6;
 }
 
 .video-bg-texture {
