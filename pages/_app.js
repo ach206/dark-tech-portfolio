@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { Fragment } from "react";
 import "../styles/globals.css";
-import "../public/style/_settings.scss";
+import "/public/style/_settings.scss";
 
 function MyApp({ Component, pageProps }) {
   return (
