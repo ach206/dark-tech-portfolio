@@ -3,6 +3,7 @@ import { Fragment, useContext } from "react";
 import Layout from "../src/layout/Layout";
 import Link from "next/link";
 import dynamic from "next/dynamic";
+import Image from "next/image";
 
 const Blog = () => {
   const typingAnimation = [
@@ -25,7 +26,7 @@ const Blog = () => {
                         <div className="image">
                             <Link href="/blog_post"><a className="post-thumbnail">
 
-                                <img src="images/blog/blog_4.jpg" className="wp-post-image" alt="Two Before Arrow Not Relied" />
+                                          <Image src="/../public/images/blog/blog_4.jpg" width={'100%'} height={'100%'} className="wp-post-image" alt="Two Before Arrow Not Relied" />
 
                                 <span className="info">
                                     <span className="centrize full-width">
@@ -55,8 +56,7 @@ const Blog = () => {
                     <div className="post">
                         <div className="image">
                             <Link href="/blog_post"><a className="post-thumbnail">
-
-                                <img src="images/blog/blog_1.jpg" className="wp-post-image" alt="Welcome to React!" />
+                                          <Image src="/../public/images/blog/blog_4.jpg" width={'100%'} height={'100%'} className="wp-post-image" alt="Two Before Arrow Not Relied" />
 
                                 <span className="info">
                                     <span className="centrize full-width">
@@ -87,8 +87,7 @@ const Blog = () => {
                         <div className="image">
                             <Link href="/blog_post"><a className="post-thumbnail">
 
-                                <img src="images/blog/blog_5.jpg" className="wp-post-image" alt="By spite about do of do allow blush" />
-
+                                          <Image src="/../public/images/blog/blog_4.jpg" width={'100%'} height={'100%'} className="wp-post-image" alt="Two Before Arrow Not Relied" />
                                 <span className="info">
                                     <span className="centrize full-width">
                                         <span className="vertical-center">
@@ -118,7 +117,7 @@ const Blog = () => {
                         <div className="image">
                             <Link href="/blog_post"><a className="post-thumbnail">
 
-                                <img src="images/blog/blog_3.jpg" className="wp-post-image" alt="Design in Mobile Application" />
+                                          <Image src="/../public/images/blog/blog_4.jpg" width={'100%'} height={'100%'} className="wp-post-image" alt="Two Before Arrow Not Relied" />
 
                                 <span className="info">
                                     <span className="centrize full-width">
@@ -149,7 +148,7 @@ const Blog = () => {
                         <div className="image">
                             <Link href="/blog_post"><a className="post-thumbnail">
 
-                                <img src="images/blog/blog_2.jpg" className="wp-post-image" alt="By spite about what to do" />
+                                          <Image src="/../public/images/blog/blog_4.jpg" width={'100%'} height={'100%'} className="wp-post-image" alt="Two Before Arrow Not Relied" />
 
                                 <span className="info">
                                     <span className="centrize full-width">

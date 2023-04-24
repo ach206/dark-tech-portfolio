@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
+
 const TypingAnimation = ({ typingData, extraClassName }) => {
   // Create Ref element.
   const el = useRef(null);
@@ -12,7 +13,7 @@ const TypingAnimation = ({ typingData, extraClassName }) => {
           "We build software using <strong>AI</strong>.",
           "We turn ideas into <strong>reality</strong>.",
           "<strong>Program</strong> your life.",
-          ], // Strings to display
+        ], // Strings to display
       typeSpeed: 77,
       backSpeed: 100,
       backDelay: 200,
@@ -25,7 +26,8 @@ const TypingAnimation = ({ typingData, extraClassName }) => {
     return () => {
       typed.destroy();
     };
-  }, []);
+  }, [typingData]); // Add typingData to the dependency array
+
   return (
     <span
       className={`${extraClassName} typing-subtitle`}
@@ -34,4 +36,5 @@ const TypingAnimation = ({ typingData, extraClassName }) => {
     ></span>
   );
 };
+
 export default TypingAnimation;

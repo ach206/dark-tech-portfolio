@@ -1,4 +1,5 @@
 /* Setting */
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic");
 
 /* Background Colors */
 $default_bg: #101010;
@@ -57,3 +58,13 @@ $line_height: 1.5;
 	-moz-transform: $param;
 	-o-transform: $param;
 }
+
+@import "./basic.scss";
+@import "./layout.scss";
+@import "../css/magnific-popup.scss";
+@import "../css/animate.scss";
+@import "../css/jarallax.scss";
+@import "../css/swiper.scss";
+@import "../css/fontawesome.scss";
+@import "../css/brands.scss";
+@import "../css/solid.scss";

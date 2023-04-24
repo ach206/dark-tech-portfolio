@@ -4,14 +4,16 @@ import { Fragment, useState } from "react";
 const Menu = () => (
   <Fragment>
     <div className="logo hover-masks-logo">
-      <a href="/founder">
-        <span className="mask-lnk">
-          Meet the <strong>Founder</strong>
-        </span>
-        <span className="mask-lnk mask-lnk-hover">
-          Camille <strong>Hall</strong>
-        </span>
-      </a>
+      <Link href="/founder">
+        <a>
+          <span className="mask-lnk">
+            Meet the <strong>Founder</strong>
+          </span>
+          <span className="mask-lnk mask-lnk-hover">
+            Camille <strong>Hall</strong>
+          </span>
+        </a>
+      </Link>
     </div>
     {/* top menu */}
     <div className="top-menu hover-masks">
@@ -40,6 +42,7 @@ const Menu = () => (
     </div>
   </Fragment>
 );
+
 
 const Header = () => {
   return (

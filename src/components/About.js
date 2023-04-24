@@ -1,11 +1,12 @@
+import Image from "next/image";
 const About = () => {
   return (
     <div className="section about" id="next_section">
       <div className="content content-box">
         {/* image */}
         <div className="image">
-          <img src="images/man_r.jpg" alt="" />
-        </div>
+          <Image src="/../public/images/blog/blog_4.jpg" width={'100%'} height={'100%'} className="wp-post-image" alt="Two Before Arrow Not Relied" />
+                  </div>
         {/* desc */}
         <div className="desc">
           <p>

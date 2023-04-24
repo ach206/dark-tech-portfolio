@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Team = () => {
   return (
     <div className="section team" id="section-team">
@@ -11,7 +13,8 @@ const Team = () => {
           <div className="team-col">
             <div className="team-item content-box">
               <div className="image">
-                <img src="images/team1.jpg" alt="" />
+                <Image src="/images/client1.png" alt="" width={100} height={100} />
+
               </div>
               <div className="desc">
                 <div className="name">Camille Hall</div>
@@ -45,7 +48,8 @@ const Team = () => {
           <div className="team-col">
             <div className="team-item content-box">
               <div className="image">
-                <img src="images/team2.jpg" alt="" />
+                <Image src="/images/client1.png" alt="" width={100} height={100} />
+
               </div>
               <div className="desc">
                 <div className="name">Peter Green</div>

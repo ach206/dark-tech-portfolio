@@ -5,6 +5,7 @@ import Testimonials from "../src/components/Testimonials";
 import TypingAnimation from "../src/components/TypingAnimation";
 import Layout from "../src/layout/Layout";
 import { createSkillsDot, dotResize } from "../src/utils";
+import Image from "next/image";
 const ItemIsotope = dynamic(() => import("../src/components/ItemIsotope"), {
   ssr: false,
 });
@@ -98,7 +99,7 @@ const IndexOnePage = () => {
           <div className="content content-box">
             {/* image */}
             <div className="image">
-              <img src="images/man_r.jpg" alt="" />
+              <Image src="/../public/images/blog/blog_4.jpg" width={'100%'} height={'100%'} className="wp-post-image" alt="Two Before Arrow Not Relied" />
             </div>
             {/* desc */}
             <div className="desc">
@@ -575,7 +576,7 @@ const IndexOnePage = () => {
               <div className="team-col">
                 <div className="team-item content-box">
                   <div className="image">
-                    <img src="images/team1.jpg" alt="" />
+                    <Image src="/../public/images/blog/blog_4.jpg" width={'100%'} height={'100%'} className="wp-post-image" alt="Two Before Arrow Not Relied" />
                   </div>
                   <div className="desc">
                     <div className="name">Camille Hall</div>
@@ -609,8 +610,7 @@ const IndexOnePage = () => {
               <div className="team-col">
                 <div className="team-item content-box">
                   <div className="image">
-                    <img src="images/team2.jpg" alt="" />
-                  </div>
+                    <Image src="/../public/images/blog/blog_4.jpg" width={'100%'} height={'100%'} className="wp-post-image" alt="Two Before Arrow Not Relied" />                  </div>
                   <div className="desc">
                     <div className="name">Peter Green</div>
                     <div className="category">Back-end Developer</div>
@@ -658,29 +658,25 @@ const IndexOnePage = () => {
                 <div className="clients-col">
                   <div className="clients-item">
                     <a target="_blank" rel="noreferrer" href="#">
-                      <img src="images/client1.png" alt="" />
-                    </a>
+                      <Image src="/../public/images/blog/blog_4.jpg" width={'100%'} height={'100%'} className="wp-post-image" alt="Two Before Arrow Not Relied" />                    </a>
                   </div>
                 </div>
                 <div className="clients-col">
                   <div className="clients-item">
                     <a target="_blank" rel="noreferrer" href="#">
-                      <img src="images/client3.png" alt="" />
-                    </a>
+                      <Image src="/../public/images/blog/blog_4.jpg" width={'100%'} height={'100%'} className="wp-post-image" alt="Two Before Arrow Not Relied" />                    </a>
                   </div>
                 </div>
                 <div className="clients-col">
                   <div className="clients-item">
                     <a target="_blank" rel="noreferrer" href="#">
-                      <img src="images/client2.png" alt="" />
-                    </a>
+                      <Image src="/../public/images/blog/blog_4.jpg" width={'100%'} height={'100%'} className="wp-post-image" alt="Two Before Arrow Not Relied" />                    </a>
                   </div>
                 </div>
                 <div className="clients-col">
                   <div className="clients-item">
                     <a target="_blank" rel="noreferrer" href="#">
-                      <img src="images/client4.png" alt="" />
-                    </a>
+                      <Image src="/../public/images/blog/blog_4.jpg" width={'100%'} height={'100%'} className="wp-post-image" alt="Two Before Arrow Not Relied" />                    </a>
                   </div>
                 </div>
               </div>
