@@ -26,6 +26,7 @@ const Founder = () => {
                     </div>
                 </div>
             </div>
+            <span class="typed-bread photographer">Photographer: Katrina <a href="https://dynamicphotography.myportfolio.com/dynamicphotography">@dynamicphotographystudio</a></span>
         </FounderLayout>
     );
 };

@@ -3700,6 +3700,15 @@ iframe, object {
 	background-repeat: no-repeat;
 	opacity: 0.6;
 }
+.photographer {
+	font-size: 0.6em;
+	color: #999;
+	position: absolute;
+	bottom: 0;
+	right: 1em;
+	font-style: italic;
+	z-index: 555;
+}
 
 .video-bg-texture {
 	position: absolute;
