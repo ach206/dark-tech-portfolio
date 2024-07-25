@@ -87,7 +87,6 @@ const ImageGallery = () => {
         });
       }
     }, 1000);
-    console.log(imgs);
   }, [view]);
   return (
     <Fragment>
