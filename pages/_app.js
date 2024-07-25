@@ -18,8 +18,11 @@ let metaContext = (
 			property="og:description"
 			content="We deliver intelligent software that empowers users and delivers exceptional value"
 		/>
-		<meta property="og:image" content="/images/ideas-to-reality-thick-banner-2048x1152.png" />
-		<meta property="og:site_name" content="Unshackle" />
+		<meta
+			property="og:image"
+			content="/images/ideas-to-reality-thick-banner-2048x1152.png"
+		/>
+		<meta property="og:site_name" content="Creative Ambition" />
 		<meta name="twitter:card" content="summary_large_image" />
 		<meta name="twitter:url" content="https://creativeambition.net/" />
 		<meta
@@ -30,13 +33,16 @@ let metaContext = (
 			name="twitter:description"
 			content="We deliver intelligent software that empowers users and delivers exceptional value"
 		/>
-		<meta name="twitter:image" content="/images/ideas-to-reality-thick-banner-2048x1152.png" />
+		<meta
+			name="twitter:image"
+			content="/images/ideas-to-reality-thick-banner-2048x1152.png"
+		/>
 		<meta name="msapplication-TileColor" content="#ffffff" />
 		<meta name="theme-color" content="#ffffff" />
 	</>
 );
 function MyApp({ Component, pageProps }) {
-  return (
+	return (
 		<Fragment>
 			<Head>
 				<title>Creative Ambition</title>
@@ -46,7 +52,7 @@ function MyApp({ Component, pageProps }) {
 			</Head>
 			<Component {...pageProps} />
 		</Fragment>
-  );
+	);
 }
 
 export default MyApp;
