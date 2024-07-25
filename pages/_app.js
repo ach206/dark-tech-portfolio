@@ -6,7 +6,7 @@ let metaContext = (
 	<>
 		<meta
 			name="description"
-			content="We deliver intelligent software that empowers users and delivers exceptional value"
+			content="We deliver intelligent software that empowers users and delivers exceptional value."
 		/>
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content="https://creativeambition.net/" />
@@ -16,7 +16,7 @@ let metaContext = (
 		/>
 		<meta
 			property="og:description"
-			content="We deliver intelligent software that empowers users and delivers exceptional value"
+			content="We deliver intelligent software that empowers users and delivers exceptional value."
 		/>
 		<meta
 			property="og:image"
@@ -31,7 +31,7 @@ let metaContext = (
 		/>
 		<meta
 			name="twitter:description"
-			content="We deliver intelligent software that empowers users and delivers exceptional value"
+			content="We deliver intelligent software that empowers users and delivers exceptional value."
 		/>
 		<meta
 			name="twitter:image"
