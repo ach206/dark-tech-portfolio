@@ -12,7 +12,7 @@ let metaContext = (
 		<meta property="og:url" content="https://creativeambition.net/" />
 		<meta
 			property="og:title"
-			content="Creative Ambition | We build software using AI."
+			content="Creative Ambition | We build software using AI"
 		/>
 		<meta
 			property="og:description"
@@ -27,7 +27,7 @@ let metaContext = (
 		<meta name="twitter:url" content="https://creativeambition.net/" />
 		<meta
 			name="twitter:title"
-			content="Creative Ambition | We build software using AI."
+			content="Creative Ambition | We build software using AI"
 		/>
 		<meta
 			name="twitter:description"
