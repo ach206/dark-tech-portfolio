@@ -57,7 +57,7 @@ const Portfolio = () => {
 										<strong>Established:</strong> 2024
 									</li>
 									<li>
-										<strong>Stage:</strong> Seed
+										<strong>Stage:</strong> Pre-Seed
 									</li>
 									<li>
 										<strong>Website:</strong>
