@@ -3725,11 +3725,11 @@ margin: 1.5em 0;
 	z-index: 2;
 }
 .founder-bg-mask {
-	background: url('../images/cam4-cutout-bw-lite-bg.png');
+	background: url('../images/founder.jpg');
 	background-size: cover;
-	background-position: 0% 50%;
+	background-position: 50% 50%;
 	background-repeat: no-repeat;
-	opacity: 0.6;
+	opacity: 0.5;
 }
 
 @media (max-width: 480px) {
@@ -3740,9 +3740,6 @@ margin: 1.5em 0;
 		height: 100%;
 	}
 
-	.founder-bg-mask {
-		background-size: contain;
-	}
 }
 .video-bg-texture {
 	position: absolute;
